@@ -95,7 +95,7 @@
   --user-popout-overlay: rgba(0, 0, 0, 0.6); /* user popout overlay color [default: rgba(0, 0, 0, .6)] */
 
   /* USER MODAL BACKGROUND */
-  --user-modal-image: url('https://i.imgur.com/e2GrspK.jpg');
+  --user-modal-image: url(https://i.imgur.com/e2GrspK.jpg);
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
