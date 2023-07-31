@@ -95,18 +95,17 @@
   --user-popout-overlay: rgba(0, 0, 0, 0.6); /* user popout overlay color [default: rgba(0, 0, 0, .6)] */
 
   /* USER MODAL BACKGROUND */
-  --user-modal-image: var(https://i.imgur.com/e2GrspK.jpg); /* app background image (link must be HTTPS) [default: var(--background-image)] */
-  --user-modal-position: var(--background-position); /* user modal background position [default: var(--background-position)] */
-  --user-modal-size: var(--background-size); /* user modal background size [default: var(--background-size)] */
-  --user-modal-repeat: var(--background-repeat); /* user modal background repeat [default: var(--background-repeat)] */
-  --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
-  --user-modal-brightness: var(--background-brightness); /* user modal background brightness (< 100% for darken, > 100% for lighten) [default: var(--background-brightness)] */
-  --user-modal-contrast: var(--background-contrast); /* user modal background contrast [default: var(--background-contrast)] */
-  --user-modal-saturation: var(--background-saturation); /* user modal background saturation [default: var(--background-saturation)] */
-  --user-modal-invert: var(--background-invert); /* user modal background invert (0 - 100%) [default: var(--background-invert)] */
-  --user-modal-grayscale: var(--background-grayscale); /* user modal background grayscale (0 - 100%) [default: var(--background-grayscale)] */
-  --user-modal-sepia: var(--background-sepia); /* user modal background sepia (0 - 100%) [default: var(--background-sepia)] */
-  --user-modal-blur: calc(var(--background-blur) + 3px); /* user modal background blur [default: calc(var(--background-blur) + 3px)] */
+  --user-modal-image: url('https://i.imgur.com/e2GrspK.jpg');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 0px;
 
   /* THEME BD COLORS */
   --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
